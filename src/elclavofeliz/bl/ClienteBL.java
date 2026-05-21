@@ -6,7 +6,6 @@ import elclavofeliz.et.Cliente;
 import java.util.List;
 
 public class ClienteBL {
-    //Hola amigo esto es un comentario
     private final ClienteDAL clienteDAL;
     private final PedidoDAL pedidoDAL;
 
