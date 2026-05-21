@@ -135,7 +135,7 @@ public class MainFrame extends JFrame {
 
     private JPanel construirSubtabEditarPedido() {
         JPanel panel = new JPanel(new GridLayout(0, 2, 8, 8));
-        panel.add(new JLabel("ID:"));
+        panel.add(new JLabel("Pedido ID:"));
         panel.add(txtEditarPedidoId);
         panel.add(new JLabel("Cliente ID:"));
         panel.add(txtEditarPedidoClienteId);
